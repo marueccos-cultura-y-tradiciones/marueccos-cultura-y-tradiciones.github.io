@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  R'fissa marroquí 
-author: yeljaoujat  
+title:  R'fissa marroquí
+author: feljaoujat  
 categories: [Général]
 tags: [Blog, Entreprise 2.0,Pratiques]
-shortinfo:  R'fissa marroquí 
+shortinfo:  R'fissa marroquí
 ---
 
 En estos días del frío no hay ningún plato mejor que R'fissa marroquí para calentarse!!

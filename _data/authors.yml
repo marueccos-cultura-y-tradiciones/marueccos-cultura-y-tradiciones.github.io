@@ -16,7 +16,7 @@ hrabi:
     email: hrabia@sqli.com
     bio: Born to code
 hsijelmassi:
-    name: Houda Sijlmassi 
+    name: Houda Sijlmassi
     email: hrabia@sqli.com
     bio: Born to code
 
@@ -28,4 +28,8 @@ rgoyard:
 yeljaoujat:
     name: Youssef El Jaoujat
     email: eljoujat@gmail.com
-    bio: 
+    bio:
+feljaoujat:
+    name: Fatima El Jaoujat
+    email: eljoujat@gmail.com
+    bio:
