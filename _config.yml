@@ -12,9 +12,9 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Blog de l'equipe Printemps
+      title: Marruecos: cultura y tradiciones
 
-description: Blog de l'equipe Printemps
+description: Marruecos: cultura y tradiciones
 
 rss_path: feed.xml
 categories_path: categories.html
