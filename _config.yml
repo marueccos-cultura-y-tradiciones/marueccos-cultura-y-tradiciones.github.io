@@ -12,9 +12,9 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Marruecos: cultura y tradiciones
+      title: Marruecos cultura y tradiciones
 
-description: Marruecos: cultura y tradiciones
+description: Marruecos cultura y tradiciones
 
 rss_path: feed.xml
 categories_path: categories.html
