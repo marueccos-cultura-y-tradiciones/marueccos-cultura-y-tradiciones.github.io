@@ -2,7 +2,6 @@
 layout: post
 title:  R'fissa marroquí
 author: feljaoujat  
-categories: [general]
 tags: [Blog, Entreprise 2.0,Pratiques]
 shortinfo:  R'fissa marroquí
 ---

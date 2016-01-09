@@ -21,28 +21,6 @@
             <div class="article_body">
                 {{ content }}
             </div>
-
-            {% unless page.categories == empty %}
-            <ul class="tag_box list-unstyled list-inline">
-                <li><i class="fa fa-folder-open"></i></li>
-                {% assign categories_list = page.categories %}
-                {% if categories_list.first[0] == null %}
-                {% for category in categories_list %}
-                <li><a href="{{ site.BASE_PATH }}/{{ site.categories_path }}#{{ category }}-ref">
-                    {{ category | join: "/" }} <span>({{ site.categories[category].size }})</span>
-                    {% unless forloop.last %},{% endunless %}
-                </a></li>
-                {% endfor %}
-                {% else %}
-                {% for category in categories_list %}
-                <li><a href="{{ site.BASE_PATH }}/{{ site.categories_path }}#{{ category[0] }}-ref">
-                    {{ category[0] | join: "/" }} <span>/{{ category[1].size }})</span>
-                </a></li>
-                {% endfor %}
-                {% endif %}
-            </ul>
-            {% endunless %}
-
             {% unless page.tags == empty %}
             <ul class="list-inline">
                 <li><i class="fa fa-tags"></i></li>
@@ -98,12 +76,6 @@
                         <i class="fa fa-google-plus fa-lg"></i>
                         Google+
                     </a>
-                </section>
-
-                <section class="col-sm-6 author">
-                    <img src="" gravatar-mail="{{author.email}}" class="img-rounded author-image"/>
-                    <h4 class="section-title author-name">{{author.name}}</h4>
-                    <p class="author-bio">{{author.bio}}</p>
                 </section>
             </div>
 
